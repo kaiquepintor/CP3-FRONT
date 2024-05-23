@@ -1,0 +1,23 @@
+.bem-vindo{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 20px;
+    color: #ff0000;
+    font-weight: 600;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: #ccc;
+    transition: 0.5s;
+    padding: 15px;
+}

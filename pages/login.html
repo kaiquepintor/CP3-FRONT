@@ -13,8 +13,7 @@
         rel="stylesheet"
     >
 
-    <script src="https://kit.fontawesome.com/fb8ba78ad7.js" crossorigin="anonymous"></script>
-    <script src="../js/user/login.js" defer></script>
+    <script src="../js/login.js" defer></script>
     <script src="../js/global.js" defer></script>
     
     <link rel="stylesheet" href="../styles/global.css">
@@ -36,13 +35,13 @@
                     </div>
         
                     <div class="formulario">
-                        <form class="form" action="#" method="get" onsubmit="return validacao(idCpf,idSenha)">
+                        <form class="form" action="#" method="get" onsubmit="return validacao(idEmail,idSenha)">
                             <fieldset class="form-content">
             
                               <!-- Campo do CPF -->
                               <div class="form-input">
-                                <label for="idCpf">CPF:</label>
-                                <input type="text" name="cpf" id="idCpf" placeholder="Ex: 00000000000" required>
+                                <label for="idEmail">E-mail:</label>
+                                <input type="email" name="email" id="idEmail" placeholder="Ex: jose@gmail.com" required>
                               </div>
                             
                               <!-- Campo de Senha -->
